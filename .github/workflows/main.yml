@@ -34,7 +34,7 @@ jobs:
         run: yarn build
         
       - name: copy file via ssh password
-        uses: appleboy/scp-action@masterhttps://docs.github.com/actions/reference/workflow-syntax-for-github-actions#onschedule
+        uses: appleboy/scp-action@master
         with:
           host: ${{ secrets.SSH_HOST }}
           username: ${{ secrets.SSH_USER }}
