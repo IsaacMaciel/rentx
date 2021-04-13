@@ -1,0 +1,10 @@
+node_modules
+.vscode
+tmp/
+coverage
+.env
+!tmp/.gitkeep
+dist
+ormconfig.json
+ignite-nodejs.pem
+ignite-nodejs.pem:Zone.Identifier
